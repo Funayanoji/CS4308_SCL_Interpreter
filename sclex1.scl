@@ -1,3 +1,6 @@
+// This is an example file against which
+// to test the project.
+
 import "scl.h"
 import "basic_lib.h"
 /* Program: arrayex1.scl
