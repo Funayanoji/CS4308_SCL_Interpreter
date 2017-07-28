@@ -9,8 +9,8 @@ Title: Semester Project Deliverable 2
        Parser class for SCL Language Interpreter
 '''
 
-from CS4308_W01_Harriman_Scanner import *
-from CS4308_W01_Harriman_LexicalRules import *
+from Scanner import *
+from LexicalRules import *
 
 class Parser:
     '''
