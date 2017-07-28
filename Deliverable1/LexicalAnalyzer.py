@@ -16,7 +16,7 @@ Description: The lexicalAnalyzer is a dictionary of dictionaries.
 '''
 
 import re
-from CS4308_W01_Harriman_Token import *
+from Token import *
 
 lexicalAnalyzer = {
     "keywords" : {
