@@ -3,7 +3,7 @@ Author: Margaret Harriman
 Class: CS 4308 W01
 School: Kennesaw State University
 Professor: Dr. Jose Garrido
-Date: June 27, 2017
+Date: June 27, 2017 
 
 Title: Semester Project Deliverable 1
        Token class for SCL Language Interpreter
