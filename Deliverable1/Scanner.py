@@ -3,7 +3,7 @@ Author: Margaret Harriman
 Class: CS 4308 W01
 School: Kennesaw State University
 Professor: Dr. Jose Garrido
-Date: July 12, 2017 
+Date: July 12, 2017
 
 Title: Semester Project Deliverable 2
        Scanner class for SCL Language Interpreter
