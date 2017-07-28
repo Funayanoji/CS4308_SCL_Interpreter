@@ -1,0 +1,564 @@
+
+CURRENT LINE # 1 - import "scl.h"
+
+    Token: import, token, 4011
+    Token: "scl.h", token, 4002
+=======================
+
+CURRENT LINE # 2 - import "basic_lib.h"
+
+    Token: import, token, 4011
+    Token: "basic_lib.h", token, 4002
+=======================
+
+CURRENT LINE # 3 - /* Program: arrayex1.scl
+
+=======================
+
+CURRENT LINE # 4 - Computes the maximum value in an array.
+
+=======================
+
+CURRENT LINE # 5 - J Garrido Updated 1-7-2016
+
+=======================
+
+CURRENT LINE # 6 - */
+
+=======================
+
+CURRENT LINE # 7 - symbol MM 45
+
+    Token: symbol, keyword, 8027
+    Token: MM, token, 4011
+    Token: 45, token, 4004
+=======================
+
+CURRENT LINE # 8 - 
+
+=======================
+
+CURRENT LINE # 9 - forward declarations
+
+    Token: forward, keyword, 8012
+    Token: declarations, keyword, 8003
+=======================
+
+CURRENT LINE # 10 - function max_array return type integer
+
+    Token: function, keyword, 8013
+    Token: max_array, token, 4011
+    Token: return, keyword, 8023
+    Token: type, keyword, 8029
+    Token: integer, keyword, 8017
+=======================
+
+CURRENT LINE # 11 - parameters
+
+    Token: parameters, keyword, 8019
+=======================
+
+CURRENT LINE # 12 - a array [] type integer,
+
+    Token: a, token, 4011
+    Token: array, keyword, 8000
+    Token: [], token, 4008
+    Token: type, keyword, 8029
+    Token: integer,, token, 4011
+=======================
+
+CURRENT LINE # 13 - num_elements  type integer
+
+    Token: num_elements, token, 4011
+    Token: type, keyword, 8029
+    Token: integer, keyword, 8017
+=======================
+
+CURRENT LINE # 14 - 
+
+=======================
+
+CURRENT LINE # 15 - global declarations
+
+    Token: global, keyword, 8014
+    Token: declarations, keyword, 8003
+=======================
+
+CURRENT LINE # 16 - constants
+
+    Token: constants, token, 4011
+=======================
+
+CURRENT LINE # 17 - define MAX = 50  type integer
+
+    Token: define, token, 4011
+    Token: MAX, token, 4011
+    Token: =, arithmetic operator, 6010
+    Token: 50, token, 4004
+    Token: type, keyword, 8029
+    Token: integer, keyword, 8017
+=======================
+
+CURRENT LINE # 18 - define ARRAY_SIZE  100 type integer
+
+    Token: define, token, 4011
+    Token: ARRAY_SIZE, token, 4011
+    Token: 100, token, 4004
+    Token: type, keyword, 8029
+    Token: integer, keyword, 8017
+=======================
+
+CURRENT LINE # 19 - variables
+
+    Token: variables, token, 4011
+=======================
+
+CURRENT LINE # 20 - define varm2 array[MM] of type integer
+
+    Token: define, token, 4011
+    Token: varm2, token, 4011
+    Token: array[MM], token, 4011
+    Token: of, token, 4011
+    Token: type, keyword, 8029
+    Token: integer, keyword, 8017
+=======================
+
+CURRENT LINE # 21 - define var3  type integer
+
+    Token: define, token, 4011
+    Token: var3, token, 4011
+    Token: type, keyword, 8029
+    Token: integer, keyword, 8017
+=======================
+
+CURRENT LINE # 22 - /*
+
+=======================
+
+CURRENT LINE # 23 - This program computes the maximum value in an array
+
+=======================
+
+CURRENT LINE # 24 - */
+
+=======================
+
+CURRENT LINE # 25 - implementations
+
+    Token: implementations, keyword, 8016
+=======================
+
+CURRENT LINE # 26 - 
+
+=======================
+
+CURRENT LINE # 27 - description
+
+    Token: description, token, 4011
+=======================
+
+CURRENT LINE # 28 - This is the main function of the application.
+
+    Token: This, token, 4011
+    Token: is, token, 4011
+    Token: the, token, 4011
+    Token: main, keyword, 8018
+    Token: function, keyword, 8013
+    Token: of, token, 4011
+    Token: the, token, 4011
+    Token: application., token, 4011
+=======================
+
+CURRENT LINE # 29 - */
+
+=======================
+
+CURRENT LINE # 30 - function main is
+
+    Token: function, keyword, 8013
+    Token: main, keyword, 8018
+    Token: is, token, 4011
+=======================
+
+CURRENT LINE # 31 - variables
+
+    Token: variables, token, 4011
+=======================
+
+CURRENT LINE # 32 - define marray array [MAX] of type integer
+
+    Token: define, token, 4011
+    Token: marray, token, 4011
+    Token: array, keyword, 8000
+    Token: [MAX], token, 4003
+    Token: of, token, 4011
+    Token: type, keyword, 8029
+    Token: integer, keyword, 8017
+=======================
+
+CURRENT LINE # 33 - define max_val of type integer
+
+    Token: define, token, 4011
+    Token: max_val, token, 4011
+    Token: of, token, 4011
+    Token: type, keyword, 8029
+    Token: integer, keyword, 8017
+=======================
+
+CURRENT LINE # 34 - define kelements of type integer
+
+    Token: define, token, 4011
+    Token: kelements, token, 4011
+    Token: of, token, 4011
+    Token: type, keyword, 8029
+    Token: integer, keyword, 8017
+=======================
+
+CURRENT LINE # 35 - define j of type integer
+
+    Token: define, token, 4011
+    Token: j, token, 4011
+    Token: of, token, 4011
+    Token: type, keyword, 8029
+    Token: integer, keyword, 8017
+=======================
+
+CURRENT LINE # 36 - define mybhvar of type integer
+
+    Token: define, token, 4011
+    Token: mybhvar, token, 4011
+    Token: of, token, 4011
+    Token: type, keyword, 8029
+    Token: integer, keyword, 8017
+=======================
+
+CURRENT LINE # 37 - define myihvar of type integer
+
+    Token: define, token, 4011
+    Token: myihvar, token, 4011
+    Token: of, token, 4011
+    Token: type, keyword, 8029
+    Token: integer, keyword, 8017
+=======================
+
+CURRENT LINE # 38 - begin
+
+    Token: begin, keyword, 8001
+=======================
+
+CURRENT LINE # 39 - input "Number of elements to process: ", kelements
+
+    Token: input, token, 4011
+    Token: "Number, token, 4002
+    Token: of, token, 4011
+    Token: elements, token, 4011
+    Token: to, token, 4011
+    Token: process:, token, 4011
+    Token: ",, token, 4002
+    Token: kelements, token, 4011
+=======================
+
+CURRENT LINE # 40 - for j = 0 to kelements -1 do
+
+    Token: for, token, 4011
+    Token: j, token, 4011
+    Token: =, arithmetic operator, 6010
+    Token: 0, token, 4004
+    Token: to, token, 4011
+    Token: kelements, token, 4011
+    Token: -1, token, 4004
+    Token: do, keyword, 8005
+=======================
+
+CURRENT LINE # 41 - input "Enter element int value: " , marray [j]
+
+    Token: input, token, 4011
+    Token: "Enter, token, 4002
+    Token: element, token, 4011
+    Token: int, token, 4011
+    Token: value:, token, 4011
+    Token: ", token, 4002
+    Token: ,, token, 4009
+    Token: marray, token, 4011
+    Token: [j], token, 4003
+=======================
+
+CURRENT LINE # 42 - endfor
+
+    Token: endfor, token, 4011
+=======================
+
+CURRENT LINE # 43 - set max_val = max_array(marray, kelements)
+
+    Token: set, keyword, 8024
+    Token: max_val, token, 4011
+    Token: =, arithmetic operator, 6010
+    Token: max_array(marray,, token, 4011
+    Token: kelements), token, 4011
+=======================
+
+CURRENT LINE # 44 - display "Max Integer found: ", max_val
+
+    Token: display, keyword, 8004
+    Token: "Max, token, 4002
+    Token: Integer, token, 4011
+    Token: found:, token, 4011
+    Token: ",, token, 4002
+    Token: max_val, token, 4011
+=======================
+
+CURRENT LINE # 45 - exit
+
+    Token: exit, token, 4011
+=======================
+
+CURRENT LINE # 46 - endfun main
+
+    Token: endfun, keyword, 8007
+    Token: main, keyword, 8018
+=======================
+
+CURRENT LINE # 47 - //
+
+=======================
+
+CURRENT LINE # 48 - description
+
+    Token: description, token, 4011
+=======================
+
+CURRENT LINE # 49 - The following function definition finds the maximum value
+
+    Token: The, token, 4011
+    Token: following, token, 4011
+    Token: function, keyword, 8013
+    Token: definition, token, 4011
+    Token: finds, token, 4011
+    Token: the, token, 4011
+    Token: maximum, token, 4011
+    Token: value, token, 4011
+=======================
+
+CURRENT LINE # 50 - in an integer array. To invoke the function, two arguments
+
+    Token: in, token, 4011
+    Token: an, token, 4011
+    Token: integer, keyword, 8017
+    Token: array., token, 4011
+    Token: To, token, 4011
+    Token: invoke, token, 4011
+    Token: the, token, 4011
+    Token: function,, token, 4011
+    Token: two, token, 4011
+    Token: arguments, token, 4011
+=======================
+
+CURRENT LINE # 51 - are used: the integer array and the current number of
+
+    Token: are, token, 4011
+    Token: used:, token, 4011
+    Token: the, token, 4011
+    Token: integer, keyword, 8017
+    Token: array, keyword, 8000
+    Token: and, token, 4011
+    Token: the, token, 4011
+    Token: current, token, 4011
+    Token: number, token, 4011
+    Token: of, token, 4011
+=======================
+
+CURRENT LINE # 52 - elements in the array.
+
+    Token: elements, token, 4011
+    Token: in, token, 4011
+    Token: the, token, 4011
+    Token: array., token, 4011
+=======================
+
+CURRENT LINE # 53 - */
+
+=======================
+
+CURRENT LINE # 54 - function  max_array return type integer
+
+    Token: function, keyword, 8013
+    Token: max_array, token, 4011
+    Token: return, keyword, 8023
+    Token: type, keyword, 8029
+    Token: integer, keyword, 8017
+=======================
+
+CURRENT LINE # 55 - parameters
+
+    Token: parameters, keyword, 8019
+=======================
+
+CURRENT LINE # 56 - a array[] of type integer,
+
+    Token: a, token, 4011
+    Token: array[], token, 4011
+    Token: of, token, 4011
+    Token: type, keyword, 8029
+    Token: integer,, token, 4011
+=======================
+
+CURRENT LINE # 57 - num_elements of type integer
+
+    Token: num_elements, token, 4011
+    Token: of, token, 4011
+    Token: type, keyword, 8029
+    Token: integer, keyword, 8017
+=======================
+
+CURRENT LINE # 58 - is
+
+    Token: is, token, 4011
+=======================
+
+CURRENT LINE # 59 - variables                      // local variables
+
+    Token: variables, token, 4011
+=======================
+
+CURRENT LINE # 60 - define i of type integer   // used as index of the array
+
+    Token: define, token, 4011
+    Token: i, token, 4011
+    Token: of, token, 4011
+    Token: type, keyword, 8029
+    Token: integer, keyword, 8017
+=======================
+
+CURRENT LINE # 61 - define max_elem of type integer // maximum value found so far
+
+    Token: define, token, 4011
+    Token: max_elem, token, 4011
+    Token: of, token, 4011
+    Token: type, keyword, 8029
+    Token: integer, keyword, 8017
+=======================
+
+CURRENT LINE # 62 - define hh of type integer
+
+    Token: define, token, 4011
+    Token: hh, token, 4011
+    Token: of, token, 4011
+    Token: type, keyword, 8029
+    Token: integer, keyword, 8017
+=======================
+
+CURRENT LINE # 63 - begin
+
+    Token: begin, keyword, 8001
+=======================
+
+CURRENT LINE # 64 - set i = 1
+
+    Token: set, keyword, 8024
+    Token: i, token, 4011
+    Token: =, arithmetic operator, 6010
+    Token: 1, token, 4004
+=======================
+
+CURRENT LINE # 65 - set max_elem = a[0]
+
+    Token: set, keyword, 8024
+    Token: max_elem, token, 4011
+    Token: =, arithmetic operator, 6010
+    Token: a[0], token, 4011
+=======================
+
+CURRENT LINE # 66 - display "initial max_elem: ", max_elem
+
+    Token: display, keyword, 8004
+    Token: "initial, token, 4002
+    Token: max_elem:, token, 4011
+    Token: ",, token, 4002
+    Token: max_elem, token, 4011
+=======================
+
+CURRENT LINE # 67 - while i < num_elements do
+
+    Token: while, keyword, 8031
+    Token: i, token, 4011
+    Token: <, arithmetic operator, 6005
+    Token: num_elements, token, 4011
+    Token: do, keyword, 8005
+=======================
+
+CURRENT LINE # 68 - if a[i] > max_elem
+
+    Token: if, keyword, 8015
+    Token: a[i], token, 4011
+    Token: >, arithmetic operator, 6004
+    Token: max_elem, token, 4011
+=======================
+
+CURRENT LINE # 69 - then
+
+    Token: then, keyword, 8028
+=======================
+
+CURRENT LINE # 70 - set max_elem = a[i]
+
+    Token: set, keyword, 8024
+    Token: max_elem, token, 4011
+    Token: =, arithmetic operator, 6010
+    Token: a[i], token, 4011
+=======================
+
+CURRENT LINE # 71 - set hh = varm2[i]^3
+
+    Token: set, keyword, 8024
+    Token: hh, token, 4011
+    Token: =, arithmetic operator, 6010
+    Token: varm2[i]^3, token, 4011
+=======================
+
+CURRENT LINE # 72 - display "max_elem: ", max_elem
+
+    Token: display, keyword, 8004
+    Token: "max_elem:, token, 4002
+    Token: ",, token, 4002
+    Token: max_elem, token, 4011
+=======================
+
+CURRENT LINE # 73 - endif
+
+    Token: endif, keyword, 8008
+=======================
+
+CURRENT LINE # 74 - set i = i + 1
+
+    Token: set, keyword, 8024
+    Token: i, token, 4011
+    Token: =, arithmetic operator, 6010
+    Token: i, token, 4011
+    Token: +, arithmetic operator, 6000
+    Token: 1, token, 4004
+=======================
+
+CURRENT LINE # 75 - endwhile
+
+    Token: endwhile, keyword, 8010
+=======================
+
+CURRENT LINE # 76 - return max_elem
+
+    Token: return, keyword, 8023
+    Token: max_elem, token, 4011
+=======================
+
+CURRENT LINE # 77 - endfun max_array
+
+    Token: endfun, keyword, 8007
+    Token: max_array, token, 4011
+=======================
+
+CURRENT LINE # 78 - 
+
+=======================
+
+CURRENT LINE # 79 - 
+
+=======================
