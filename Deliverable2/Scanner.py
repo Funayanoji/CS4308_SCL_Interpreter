@@ -9,8 +9,8 @@ Title: Semester Project Deliverable 2
        Scanner class for SCL Language Interpreter
 '''
 
-from CS4308_W01_Harriman_LexicalAnalyzer import *
-from CS4308_W01_Harriman_Token import *
+from LexicalAnalyzer import *
+from Token import *
 
 class Scanner:
     '''
