@@ -17,7 +17,7 @@ Description: The LexicalRules are housed as a dictionary
 '''
 
 import re
-from CS4308_W01_Harriman_Token import *
+from Token import *
 
 lexicalRules = {
 
