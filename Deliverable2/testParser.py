@@ -11,8 +11,8 @@ Description: This is the main program to
              test Parser and view results
 '''
 
-from CS4308_W01_Harriman_Scanner import *
-from CS4308_W01_Harriman_Parser import *
+from Scanner import *
+from Parser import *
 
 '''
 A Scanner object is created to read the test
