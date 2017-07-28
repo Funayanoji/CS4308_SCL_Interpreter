@@ -10,7 +10,7 @@ Title: Semester Project Deliverable 1
        test Scanner and view results
 '''
 
-from CS4308_W01_Harriman_Scanner import *
+from Scanner import *
 
 
 # Instantiate a new Scanner object
