@@ -3,7 +3,7 @@ Author: Margaret Harriman
 Class: CS 4308 W01
 School: Kennesaw State University
 Professor: Dr. Jose Garrido
-Date: July 12, 2017
+Date: July 12, 2017 
 
 Title: Semester Project Deliverable 2
        LexicalAnalyzer file for SCL Language Interpreter
@@ -16,7 +16,7 @@ Description: The lexicalAnalyzer is a dictionary of dictionaries.
 '''
 
 import re
-from CS4308_W01_Harriman_Token import *
+from Token import *
 
 lexicalAnalyzer = {
     "tokens" : {
