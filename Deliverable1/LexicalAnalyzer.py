@@ -12,7 +12,7 @@ Description: The lexicalAnalyzer is a dictionary of dictionaries.
              Each internal dictionary holds keywords, arithmetic
              operators, and tokens. Each key in each internal
              dictionary is assigned a random integer value, which
-             the Parser will use later.
+             the Parser will use later. 
 '''
 
 import re
